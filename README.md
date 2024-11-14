@@ -6,7 +6,7 @@ Un observador de estados es un algoritmo utilizado para estimar los estados inte
 
 En este contexto, uno de los problemas más comunes es el error de estado estacionario, que se refiere a la diferencia entre el estado estimado y el estado real cuando el sistema ha alcanzado un régimen estable o de equilibrio (estado estacionario). 
 
-## segimiento integral
+## Seguimiento integral
 
 El problema de eliminación de error de estado estacionario en el contexto de un sistema con seguimiento integral, primero vamos a analizar cómo se integra el concepto de observadores de estado, error de estado estacionario, y finalmente cómo se puede eliminar este error usando una ley de control con un vector de ganancias  F  para la referencia.
 
@@ -21,7 +21,7 @@ y(k) = C x(k)
 \]$$
 
 
-En este caso, se propone una ley de control que incluye un vector de ganancias F  para el seguimiento de la referencia.
+En este caso, se propone una ley de control que incluye un vector de ganancias F para el seguimiento de la referencia.
 
 $$\[
 u(k) = -K x(k) + F r(k)
@@ -431,7 +431,7 @@ $$\[
 $$Ke=[7.6959/-0.5876]$$
 
 
-# concluciones
+# conclusiones
 
 El diseño de un observador de estados combinado con un controlador integral es una estrategia poderosa para resolver el problema de seguimiento de referencia y eliminar el error de estado estacionario en sistemas dinámicos. Este enfoque permite a los sistemas funcionar de manera eficiente y precisa incluso cuando no todas las variables de estado son directamente medibles, lo cual es común en muchas aplicaciones de control real.
 
