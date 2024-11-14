@@ -114,7 +114,7 @@ $$(k+1)=(A_{a}-B_{a}K_{a})X_{a}+B_{r}r$$
 
 $$x(k+1)=A_{aLC}X_{a}+B_{r}r$$
 
-### la Metodología de Diseño
+### Metodología de Diseño
 
 1. Definir el sistema ampliado: Construir las matrices $$A_a$$, $$B_a$$, y $$C_a$$.
 2. Calcular el vector $$K_a$$: Utilizar el método Acker o polos en lazo cerrado, para calcular el vector de ganancias  K_a que ubique los polos en las posiciones deseadas en el plano complejo.
